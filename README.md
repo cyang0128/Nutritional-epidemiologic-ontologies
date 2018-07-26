@@ -4,8 +4,8 @@ Currently, 1 domain ontology for nutritional epidemiology and 1 representation o
 
 
 
-<h2 align="center">ONE (Ontology for Nutritional Epidemiology) </h2>
-<h4 align="center">Version 1.0 </h4>
+<h2 align="left">ONE (Ontology for Nutritional Epidemiology) </h2>
+<h4 align="left">Version 1.0 </h4>
 
 
 <h2 align="center">ORON (Ontology for Reporting of Observational studies in Nutrition) </h2>
