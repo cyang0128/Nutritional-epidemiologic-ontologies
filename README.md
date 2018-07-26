@@ -7,7 +7,9 @@ Currently, 1 domain ontology for nutritional epidemiology and 1 representation o
 <h2 align="left">ONE (Ontology for Nutritional Epidemiology) </h2>
 <h4 align="left">Version 1.0 </h4>
 ### bioportal url
+
 https://bioportal.bioontology.org/ontologies/ONE
+
 ### Ontology Lookup service url
 under development
 
@@ -15,6 +17,8 @@ under development
 <h2 align="left">ORON (Ontology for Reporting of Observational studies in Nutrition) </h2>
 <h4 align="left">Version 1.0 </h4>
 ### bioportal url
+
 https://bioportal.bioontology.org/ontologies/ORON
+
 ### Ontology Lookup service url
 under development
