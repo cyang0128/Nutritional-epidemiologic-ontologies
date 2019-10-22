@@ -6,7 +6,7 @@ def DOI(doi):
     
     print("Online: the paper (doi:", doi, ") referring STROBE-nut reporting guidelines has been converted.")
     
-    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
+    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
     
     #互联网导入文章的XML
     url="http://api.springernature.com/openaccess/jats/doi/{value}?api_key=f4439f0543b0e99cd4f1e00af3a6010f".format(value=doi)
@@ -69,7 +69,7 @@ def File(path):
     from py2neo import Graph, Node, Relationship
     import re
 
-    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
+    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
 
 
     #本地导入文章的XML
