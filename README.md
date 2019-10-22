@@ -11,18 +11,15 @@ Currently, 1 domain ontology for nutritional epidemiology and 1 representation o
 
 https://bioportal.bioontology.org/ontologies/ONE
 
-### Ontology Lookup service url
+### Homepage
 
-under development
+http://www.strobe-nut.org/content/strobe-nut-ontology
 
 
-<h2 align="left">ORON (Ontology for Reporting of Observational studies in Nutrition) </h2>
+<h2 align="left">Case study in Python and Neo4j</h2>
 <h4 align="left">Version 1.0 </h4>
 
-### bioportal url
+### codes
 
-https://bioportal.bioontology.org/ontologies/ORON
+Please download the codes under the folder "strobenut".
 
-### Ontology Lookup service url
-
-under development
