@@ -7,7 +7,7 @@ def max(n):
     
     get_ipython().run_line_magic('matplotlib', 'inline')
     
-    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
+    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
     
     #count the number of STROBE-nut items reported per article
     query = """
@@ -44,7 +44,7 @@ def min(n):
     import matplotlib.ticker as ticker
     from IPython import get_ipython
     get_ipython().run_line_magic('matplotlib', 'inline')
-    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
+    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
     
     #count the number of STROBE-nut items reported per article
     query = """
@@ -83,7 +83,7 @@ def nut_max(number):
 
     get_ipython().run_line_magic('matplotlib', 'inline')
 
-    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
+    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
 
     #count the number of STROBE-nut items reported per article
     query = """
@@ -120,7 +120,7 @@ def nut_min(number):
 
     get_ipython().run_line_magic('matplotlib', 'inline')
 
-    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
+    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
 
     #count the number of STROBE-nut items reported per article
     query = """
@@ -157,7 +157,7 @@ def pie():
     from IPython import get_ipython
     get_ipython().run_line_magic('matplotlib', 'inline')
     
-    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
+    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
     
     #count the number of STROBE-nut items reported per article
     query = """
@@ -206,7 +206,7 @@ def article(DOI):
     from pygal.style import Style
     from py2neo import Graph, Node, Relationship
     
-    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
+    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
     #Overall
     query = """
     MATCH (article{DOI:'%s'})-[*]->(section:`STROBE-nut section`)-[*]->(n:`STROBE-nut item`)
