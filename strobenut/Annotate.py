@@ -2,7 +2,7 @@ def nut(doi, *nut_items):
 
     from py2neo import Graph, Node, Relationship
 
-    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
+    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
 
     query = """
     MATCH (n:`Article`{DOI:'%s'})
