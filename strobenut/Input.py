@@ -9,7 +9,7 @@ def DOI(doi):
     graph = Graph("http://localhost:7474", auth=("neo4j", ""))
     
     #互联网导入文章的XML
-    url="http://api.springernature.com/openaccess/jats/doi/{value}?api_key=f4439f0543b0e99cd4f1e00af3a6010f".format(value=doi)
+    url="http://api.springernature.com/openaccess/jats/doi/{value}?api_key=???".format(value=doi)
     xml = etree.parse(url).getroot()
 
     #定位文章的题目并传入知识图谱
