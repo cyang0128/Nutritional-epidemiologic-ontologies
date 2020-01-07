@@ -122,7 +122,8 @@ def nut_min(number):
     get_ipython().run_line_magic('matplotlib', 'inline')
 
     graph = Graph("http://localhost:7474", auth=("neo4j", ""))
-
+    
+    #check the nut items not reported in any articles
     query = """
     MATCH (article)-[r:`STROBE-nut`]->()-[*]->(n:`STROBE-nut item`)
     return n.item as `item`, count(*) as `nut` ORDER BY `nut`
@@ -135,7 +136,7 @@ def nut_min(number):
     NUT=['nut-12.3','nut-8.4', 'nut-17', 'nut-12.1', 'nut-16', 'nut-8.3', 'nut-8.6', 'nut-5', 'nut-7.2', 'nut-11', 'nut-8.2', 'nut-12.2', 'nut-14', 'nut-20', 'nut-7.1', 'nut-13', 'nut-9', 'nut-22.2', 'nut-6', 'nut-19', 'nut-1', 'nut-8.5', 'nut-22.1', 'nut-8.1']
 
     for data in dataset:
-        Y.append(data['item']) #check the nut items not reported in any articles
+        Y.append(data['item']) 
 
     if Y != NUT:
         Y = [item for item in NUT if not item in Y]
