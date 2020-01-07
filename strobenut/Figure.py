@@ -7,7 +7,7 @@ def max(n):
     
     get_ipython().run_line_magic('matplotlib', 'inline')
     
-    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
+    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
     
     #count the number of STROBE-nut items reported per article
     query = """
@@ -44,7 +44,7 @@ def min(n):
     import matplotlib.ticker as ticker
     from IPython import get_ipython
     get_ipython().run_line_magic('matplotlib', 'inline')
-    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
+    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
     
     #count the number of STROBE-nut items reported per article
     query = """
@@ -83,7 +83,7 @@ def nut_max(number):
 
     get_ipython().run_line_magic('matplotlib', 'inline')
 
-    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
+    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
 
     #count the number of STROBE-nut items reported per article
     query = """
@@ -106,6 +106,7 @@ def nut_max(number):
     plt.xlabel("Articles(n)") #set label of axis x
     plt.ylabel("STROBE-nut items") #set label of axis y
 
+    plt.xlim(0,16) # set the length of axis x
 
     for x, y in zip(X, range(len(X))):
         plt.text(x+0.2, y-0.2, x)
@@ -120,8 +121,33 @@ def nut_min(number):
 
     get_ipython().run_line_magic('matplotlib', 'inline')
 
-    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
+    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
 
+    query = """
+    MATCH (article)-[r:`STROBE-nut`]->()-[*]->(n:`STROBE-nut item`)
+    return n.item as `item`, count(*) as `nut` ORDER BY `nut`
+    """
+
+    dataset = graph.run(query).data()
+
+    X=[]
+    Y=[]
+    NUT=['nut-12.3','nut-8.4', 'nut-17', 'nut-12.1', 'nut-16', 'nut-8.3', 'nut-8.6', 'nut-5', 'nut-7.2', 'nut-11', 'nut-8.2', 'nut-12.2', 'nut-14', 'nut-20', 'nut-7.1', 'nut-13', 'nut-9', 'nut-22.2', 'nut-6', 'nut-19', 'nut-1', 'nut-8.5', 'nut-22.1', 'nut-8.1']
+
+    for data in dataset:
+        Y.append(data['item']) #check the nut items not reported in any articles
+
+    if Y != NUT:
+        Y = [item for item in NUT if not item in Y]
+        Z=len(Y)
+        number = number - Z
+        for n in range(0,24):
+            if Z != 0:
+                X.append(0)
+                Z=Z-1
+            else:
+                break
+                
     #count the number of STROBE-nut items reported per article
     query = """
     MATCH (article)-[r:`STROBE-nut`]->()-[*]->(n:`STROBE-nut item`)
@@ -130,11 +156,9 @@ def nut_min(number):
 
     dataset = graph.run(query).data()
 
-    X=[]
     for data in dataset:
         X.append(data['nut']) #get the number of reported items as "X"
 
-    Y=[]
     for data in dataset:
         Y.append(data['item']) #get the DOI of papers as "Y"
 
@@ -143,7 +167,9 @@ def nut_min(number):
     plt.xlabel("Articles(n)") #set label of axis x
     plt.ylabel("STROBE-nut items") #set label of axis y
 
-
+    
+    plt.xlim(0,16) # set the length of axis x
+    
     for x, y in zip(X, range(len(X))):
         plt.text(x+0.1, y-0.2, x)
 
@@ -157,7 +183,7 @@ def pie():
     from IPython import get_ipython
     get_ipython().run_line_magic('matplotlib', 'inline')
     
-    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
+    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
     
     #count the number of STROBE-nut items reported per article
     query = """
@@ -206,7 +232,7 @@ def article(DOI):
     from pygal.style import Style
     from py2neo import Graph, Node, Relationship
     
-    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
+    graph = Graph("http://localhost:7474", auth=("neo4j", "cyan0128"))
     #Overall
     query = """
     MATCH (article{DOI:'%s'})-[*]->(section:`STROBE-nut section`)-[*]->(n:`STROBE-nut item`)
