@@ -208,21 +208,20 @@ def pie():
         elif data['nut'] <6:
             low = low +1
     
-    plt.figure(figsize=(6,9)) #调节图形大小
-    labels = [u'≥75% items reported',u'≥50% items reported',u'≥25% items reported',u'<25% items reported'] #定义标签
-    sizes = [top,high,middle,low] #每块值
-    colors = ['skyblue','lightgreen','yellow','red'] #每块颜色定义
-    explode = (0,0,0,0.5) #将某一块分割出来，值越大分割出的间隙越大
+    plt.figure(figsize=(6,9)) #figure size
+    labels = [u'≥75% items reported',u'≥50% items reported',u'≥25% items reported',u'<25% items reported'] #set labels
+    sizes = [top,high,middle,low] # set values
+    colors = ['skyblue','lightgreen','yellow','red'] #set colors
+    explode = (0,0,0,0.5) #separate one part from the rest parts 
     patches,text1,text2 = plt.pie(sizes,
                           explode=explode,
                           labels=labels,
                           colors=colors,
-                          autopct = '%3.0f%%', #数值保留固定小数位
-                          shadow = False, #无阴影设置
-                          startangle =90, #逆时针起始角度设置
-                          pctdistance = 0.6) #数值距圆心半径倍数距离
-    #patches饼图的返回值，texts1饼图外label的文本，texts2饼图内部的文本
-    # x，y轴刻度设置一致，保证饼图为圆形
+                          autopct = '%3.0f%%', #a fixed number of decimal places
+                          shadow = False,
+                          startangle =90, #Counterclockwise
+                          pctdistance = 0.6) #the distance between values and the circle center
+    
     plt.title('Overall reporting completeness of all papers') #set title
     plt.axis('equal')
     plt.legend()
