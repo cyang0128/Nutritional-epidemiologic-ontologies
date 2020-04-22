@@ -1,9 +1,8 @@
-This repository includes 
+This repository includes:
 1) one developed ontology for nutritional epidemiologic research. It was developed according to three well-developed standards agreed by nutrition science community.
 2) Python code to manage a graph database of nutritional epidemiologic research.
 
-# Nutritional epidemiologic ontology
-<h2 align="left">Ontology for Nutritional Epidemiology (ONE) Version 1.2</h2>
+# Ontology for Nutritional Epidemiology (ONE)
 Nutritional epidemiology is a special research area. The general ontologies for food science, nutrition science or medical science failed to cover the specific characteristics of Nutritional Epidemiological studies. As a result, we developed the ontology for nutritional epidemiology (ONE), which includes the key elements of Nutritional Epidemiological research.
 
 ### Homepage
