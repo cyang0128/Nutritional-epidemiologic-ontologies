@@ -18,8 +18,8 @@ It has been tested in Python v3.7.4 and neo4j v3.5.6.
 
 A Python module was developed to process the content and STROBE-nut annotations of nutritional epidemiologic papers in XML format:
 1) “Input.py”: extract and store metadata of papers through the “Springer Nature API Portal” or in local XML files respectively; 
-2) “Annotate.py”: annotate the reporting completeness of papers according to STROBE-nut reporting guidelines;
-3) “Figure.py”: visualize the statistics of reporting completeness of papers; visualize the reporting frequency of STROBE-nut items.
+2) “Annotate.py”: annotate the reporting completeness of papers according to the STROBE-nut reporting guidelines;
+3) “Figure.py”: visualize the statistics of reporting completeness of papers; visualize the reporting frequency of the STROBE-nut items.
 
 ### Code
 Please download the code under the folder "strobenut".
