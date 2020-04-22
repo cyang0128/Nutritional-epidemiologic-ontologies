@@ -1,5 +1,5 @@
 This repository includes:
-1) one developed ontology for nutritional epidemiologic research. It was developed according to three well-developed standards agreed by nutrition science community.
+1) one ontology for nutritional epidemiologic research. It was developed according to three well-developed standards agreed by nutrition science community.
 2) Python code to manage a graph database of nutritional epidemiologic research.
 
 # Ontology for Nutritional Epidemiology (ONE)
@@ -14,14 +14,14 @@ Yang, C.; Ambayo, H.; De Baets, B.; Kolsteren, P.; Thanintorn, N.; Hawwash, D.; 
 
 
 # A Python module
-It has been tested in Python v3.7.4, neo4j v3.5.6
+It has been tested in Python v3.7.4 and neo4j v3.5.6.
 
 A Python module was developed to process the content and STROBE-nut annotations of nutritional epidemiologic papers in XML format:
 1) “Input.py”: extract and store metadata of papers through the “Springer Nature API Portal” or in local XML files respectively; 
 2) “Annotate.py”: annotate the reporting completeness of papers reported according to STROBE-nut reporting guidelines;
 3) “Figure.py”: visualize the statistics of reporting completeness of paper(s); visualize the reporting frequency of STROBE-nut items.
 
-### codes
+### code
 Please download the codes under the folder "strobenut".
 
 
