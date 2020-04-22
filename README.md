@@ -21,7 +21,7 @@ A Python module was developed to process the content and STROBE-nut annotations 
 2) “Annotate.py”: annotate the reporting completeness of papers according to STROBE-nut reporting guidelines;
 3) “Figure.py”: visualize the statistics of reporting completeness of papers; visualize the reporting frequency of STROBE-nut items.
 
-### code
+### Code
 Please download the code under the folder "strobenut".
 
 
