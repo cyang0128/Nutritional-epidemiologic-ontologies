@@ -12,6 +12,7 @@ https://bioportal.bioontology.org/ontologies/ONE
 ### Publication
 Yang, C.; Ambayo, H.; De Baets, B.; Kolsteren, P.; Thanintorn, N.; Hawwash, D.; Bouwman, J.; Bronselaer, A.; Pattyn, F.; Lachat, C. An Ontology to Standardize Research Output of Nutritional Epidemiology: From Paper-Based Standards to Linked Content. Nutrients 2019, 11, 1300. https://doi.org/10.3390/nu11061300
 
+Yang, C.; Pinart, M.; Kolsteren, P.; Van Camp, J.; De Cock, N.; Nimptsch, K.; et al. Perspective: Essential study quality descriptors for data from nutritional epidemiologic research. ADVANCES IN NUTRITION. 2017;8(5):639–51. https://doi.org/10.3945/an.117.015651
 
 # A Python module
 It has been tested in Python v3.7.4 and neo4j v3.5.6.
