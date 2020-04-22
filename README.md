@@ -22,6 +22,6 @@ A Python module was developed to process the content and STROBE-nut annotations 
 3) “Figure.py”: visualize the statistics of reporting completeness of paper(s); visualize the reporting frequency of STROBE-nut items.
 
 ### code
-Please download the codes under the folder "strobenut".
+Please download the code under the folder "strobenut".
 
 
