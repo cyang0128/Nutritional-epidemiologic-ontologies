@@ -6,35 +6,35 @@ def DOI(doi):
     
     print("Online: the paper (doi:", doi, ") referring STROBE-nut reporting guidelines has been converted.")
     
-    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
+    graph = Graph("http://localhost:7474", auth=("neo4j", "")) #please fill in your password!
     
-    #互联网导入文章的XML
+    #retrieve article content from "Springer Natural API Portal"
     url="http://api.springernature.com/openaccess/jats/doi/{value}?api_key=???".format(value=doi)
     xml = etree.parse(url).getroot()
 
-    #定位文章的题目并传入知识图谱
+    #retrieve an article title
     title = xml.xpath('//article-meta/title-group/article-title//text()')
     title_node = Node("Article", Subject="Nutritional epidemiology", name=title)
     graph.create(title_node)
 
 
-    #定位文章的摘要并传入知识图谱
+    #retrieve an article abstract
     abstract = xml.xpath('//abstract//text()')
     ab_node = Node("Abstract", name="Abstract", value=abstract)
     title_ab = Relationship(title_node, "hasAbstract", ab_node)
     graph.create(title_ab)
 
-    #定位文章的DOI并传入知识图谱，作为题目的属性,，DOI用正则表达处理为string
+    #retrieve an article doi
     doi = xml.xpath('.//article-id[@pub-id-type="doi"]//text()')
     title_node['DOI'] = re.sub('^[^\s]{2}|[^\s]{2}$','',str(doi))
     graph.push(title_node)
 
-    #定位文章的keyword并传入知识图谱，连接题目
-    #创建keywords组
+    #retrieve a set of keywords
+    #develop a set for keywords
     keywords_node = Node("Keywords set", name="Keywords set")
     title_keywords = Relationship(title_node, "has", keywords_node)
     graph.create(title_keywords)
-    #导入keywords
+    #retrieve keywords
     keyword_group = xml.xpath('//article-meta/kwd-group/*//text()')
     for keyword in keyword_group:
         if keyword != "Keywords":
@@ -42,14 +42,11 @@ def DOI(doi):
             keywordsInGroup = Relationship(keywords_node, "keyword", keyword_node)
             graph.create(keywordsInGroup)
 
-    #导入文章introduction, methods, results, discussion等, 并导入 这些的子部分
-
-    #定位文章的部分并传入知识图谱，连接题目
+    #retrieve introduction, methods, results, discussion as well as their sub-sections
     main_parts = xml.xpath('//body/sec/title/text()')
     n=0
     for main_part in main_parts:
         n = n+1
-        #传入各部分文本
         path='//body/sec[{value}]//text()'.format(value=n)
         text = xml.xpath(path)
         
@@ -69,37 +66,37 @@ def File(path):
     from py2neo import Graph, Node, Relationship
     import re
 
-    graph = Graph("http://localhost:7474", auth=("neo4j", ""))
+    graph = Graph("http://localhost:7474", auth=("neo4j", "")) #your password!!!
 
 
-    #本地导入文章的XML
+    #retrieve article content from a local path
     xml = etree.parse(path).getroot()
 
 
-    #定位文章的题目并传入知识图谱
+    #retrieve an article title
     title = xml.xpath('//article-meta/title-group/article-title//text()')
     title_node = Node("Article", Subject="Nutritional epidemiology", name=title)
     graph.create(title_node)
 
 
-    #定位文章的摘要并传入知识图谱
+    #retrieve an article abstract
     abstract = xml.xpath('//abstract//text()')
     ab_node = Node("Abstract", name="Abstract", value=abstract)
     title_ab = Relationship(title_node, "hasAbstract", ab_node)
     graph.create(title_ab)
 
-    #定位文章的DOI并传入知识图谱，作为题目的属性，DOI用正则表达处理为string
+    #retrieve an article doi
     doi = xml.xpath('.//article-id[@pub-id-type="doi"]//text()')
     title_node['DOI'] = re.sub('^[^\s]{2}|[^\s]{2}$','',str(doi))
     graph.push(title_node)
     print("Local file: the paper (doi:", re.sub('^[^\s]{2}|[^\s]{2}$','',str(doi)), ") referring STROBE-nut reporting guidelines has been converted.")
 
-    #定位文章的keyword并传入知识图谱，连接题目
-    #创建keywords组
+    #retrieve a set of keywords
+    #develop a set for keywords
     keywords_node = Node("Keywords set", name="Keywords set")
     title_keywords = Relationship(title_node, "has", keywords_node)
     graph.create(title_keywords)
-    #导入keywords
+    #retrieve keywords
     keyword_group = xml.xpath('//article-meta/kwd-group/*//text()')
     for keyword in keyword_group:
         if keyword != "Keywords":
@@ -107,14 +104,11 @@ def File(path):
             keywordsInGroup = Relationship(keywords_node, "keyword", keyword_node)
             graph.create(keywordsInGroup)
 
-    #导入文章introduction, methods, results, discussion等, 并导入 这些的子部分
-
-    #定位文章的部分并传入知识图谱，连接题目
+    #retrieve introduction, methods, results, discussion as well as their sub-sections
     main_parts = xml.xpath('//body/sec/title/text()')
     n=0
     for main_part in main_parts:
         n = n+1
-        #传入各部分文本
         path='//body/sec[{value}]//text()'.format(value=n)
         text = xml.xpath(path)
         
@@ -128,5 +122,3 @@ def File(path):
             sub_part_node = Node("Sub-section", name=sub_part)
             relation = Relationship(main_part_node, "sub-section", sub_part_node)
             graph.create(relation)
-
-
