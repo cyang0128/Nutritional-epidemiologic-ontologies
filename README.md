@@ -26,6 +26,6 @@ A Python module was developed to process the content and STROBE-nut annotations 
 Please download the code under the folder "strobenut".
 
 ### Publications
-Yang, C.; Hawwash, D.; De Baets, B.; Bouwman, J.; Lachat, C. Perspective: Towards automated tracking of content and evidence appraisal of nutrition research. Advances in Nutrition. (In press)
+Yang, C.; Hawwash, D.; De Baets, B.; Bouwman, J.; Lachat, C. Perspective: Towards automated tracking of content and evidence appraisal of nutrition research. Advances in Nutrition. 2020. (In press)
 
 Yang, C., De Baets, B., & Lachat, C. (2019). From DIKW pyramid to graph database: a tool for machine processing of nutritional epidemiologic research data. In 2019 IEEE International Conference on Big Data (Big Data) (pp. 5202–5205). Los Angeles, CA, USA: IEEE. https://doi.org/10.1109/bigdata47090.2019.9006469
