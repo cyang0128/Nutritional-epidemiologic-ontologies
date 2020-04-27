@@ -12,7 +12,7 @@ https://bioportal.bioontology.org/ontologies/ONE
 ### Publications
 Yang, C.; Ambayo, H.; De Baets, B.; Kolsteren, P.; Thanintorn, N.; Hawwash, D.; Bouwman, J.; Bronselaer, A.; Pattyn, F.; Lachat, C. An Ontology to Standardize Research Output of Nutritional Epidemiology: From Paper-Based Standards to Linked Content. Nutrients 2019, 11, 1300. https://doi.org/10.3390/nu11061300
 
-Yang, C.; Pinart, M.; Kolsteren, P.; Van Camp, J.; De Cock, N.; Nimptsch, K.; et al. Perspective: Essential study quality descriptors for data from nutritional epidemiologic research. ADVANCES IN NUTRITION. 2017;8(5):639–51. https://doi.org/10.3945/an.117.015651
+Yang, C.; Pinart, M.; Kolsteren, P.; Van Camp, J.; De Cock, N.; Nimptsch, K.; et al. Perspective: Essential study quality descriptors for data from nutritional epidemiologic research. Advances in Nutrition. 2017;8(5):639–51. https://doi.org/10.3945/an.117.015651
 
 # A Python module
 It has been tested in Python v3.7.4 and neo4j v3.5.6.
@@ -25,4 +25,7 @@ A Python module was developed to process the content and STROBE-nut annotations 
 ### Code
 Please download the code under the folder "strobenut".
 
+### Publications
+Yang, C.; Hawwash, D.; De Baets, B.; Bouwman, J.; Lachat, C. Perspective: Towards automated tracking of content and evidence appraisal of nutrition research. Advances in Nutrition. (In press)
 
+Yang, C., De Baets, B., & Lachat, C. (2019). From DIKW pyramid to graph database: a tool for machine processing of nutritional epidemiologic research data. In 2019 IEEE International Conference on Big Data (Big Data) (pp. 5202–5205). Los Angeles, CA, USA: IEEE. https://doi.org/10.1109/bigdata47090.2019.9006469
