@@ -14,7 +14,7 @@ Yang, C.; Ambayo, H.; De Baets, B.; Kolsteren, P.; Thanintorn, N.; Hawwash, D.; 
 
 Yang, C.; Pinart, M.; Kolsteren, P.; Van Camp, J.; De Cock, N.; Nimptsch, K.; et al. Perspective: Essential study quality descriptors for data from nutritional epidemiologic research. Advances in Nutrition. 2017;8(5):639–51. https://doi.org/10.3945/an.117.015651
 
-# A Python module
+# A Python module for ONE
 It has been tested in Python v3.7.4 and neo4j v3.5.6.
 
 A Python module was developed to process the content and STROBE-nut annotations of nutritional epidemiologic papers in XML format:
