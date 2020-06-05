@@ -31,3 +31,6 @@ Please download the code under the folder "strobenut".
 Yang, C.; Hawwash, D.; De Baets, B.; Bouwman, J.; Lachat, C. Perspective: Towards automated tracking of content and evidence appraisal of nutrition research. Advances in Nutrition. 2020. (In press)
 
 Yang, C., De Baets, B., & Lachat, C. (2019). From DIKW pyramid to graph database: a tool for machine processing of nutritional epidemiologic research data. In 2019 IEEE International Conference on Big Data (Big Data) (pp. 5202–5205). Los Angeles, CA, USA: IEEE. https://doi.org/10.1109/bigdata47090.2019.9006469
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
