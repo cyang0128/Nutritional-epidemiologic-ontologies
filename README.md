@@ -2,13 +2,11 @@ This repository includes:
 1) one ontology for nutritional epidemiologic research. It was developed according to three well-developed standards agreed by nutrition science community.
 2) Python code to manage a graph database of nutritional epidemiologic papers.
 
-# Ontology for Nutritional Epidemiology (ONE)
+# Ontology for Nutritional Epidemiology (ONE) 
+### [Homepage](http://www.strobe-nut.org/content/strobe-nut-ontology) & [BioPortal](https://bioportal.bioontology.org/ontologies/ONE)
+
 Nutritional epidemiology is a specific research area. The generic ontologies for food science, nutrition science or medical science failed to cover the specific characteristics of nutritional epidemiologic studies. As a result, we developed the ontology for nutritional epidemiology (ONE) in order to describe nutritional epidemiologic studies accurately.
 
-### Homepage
-http://www.strobe-nut.org/content/strobe-nut-ontology
-### BioPortal
-https://bioportal.bioontology.org/ontologies/ONE
 ### Publications
 Yang, C.; Ambayo, H.; De Baets, B.; Kolsteren, P.; Thanintorn, N.; Hawwash, D.; Bouwman, J.; Bronselaer, A.; Pattyn, F.; Lachat, C. An Ontology to Standardize Research Output of Nutritional Epidemiology: From Paper-Based Standards to Linked Content. Nutrients 2019, 11, 1300. https://doi.org/10.3390/nu11061300
 
