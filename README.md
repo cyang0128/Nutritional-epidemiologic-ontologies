@@ -12,8 +12,8 @@ Yang, C.; Ambayo, H.; De Baets, B.; Kolsteren, P.; Thanintorn, N.; Hawwash, D.; 
 
 Yang, C.; Pinart, M.; Kolsteren, P.; Van Camp, J.; De Cock, N.; Nimptsch, K.; et al. Perspective: Essential study quality descriptors for data from nutritional epidemiologic research. Advances in Nutrition. 2017;8(5):639–51. https://doi.org/10.3945/an.117.015651
 
-# A Python module for ONE
-It has been tested in Python v3.7.4 and neo4j v3.5.6.
+# A Python module for the ONE
+It has been tested in [Python](https://www.python.org/) v3.7.4 and [Neo4j](https://neo4j.com/) v3.5.6.
 
 A Python module was developed to process the content and STROBE-nut annotations of nutritional epidemiologic papers in XML format:
 1) [Input.py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/strobenut/Input.py): extract and store metadata of papers through the “Springer Nature API Portal” or in local XML files respectively; 
@@ -23,7 +23,7 @@ A Python module was developed to process the content and STROBE-nut annotations 
 <div align=center><img width="500" height="250" src="images/codeExample.png"/></div>
 
 ### Code
-Please download the code under the folder "strobenut".
+Please download the code under the folder ["strobenut"](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/tree/master/strobenut).
 
 ### Publications
 Yang, C.; Hawwash, D.; De Baets, B.; Bouwman, J.; Lachat, C. Perspective: Towards automated tracking of content and evidence appraisal of nutrition research. Advances in Nutrition. 2020. (In press)
