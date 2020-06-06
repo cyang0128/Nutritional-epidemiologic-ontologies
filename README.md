@@ -15,7 +15,7 @@ Yang, C.; Pinart, M.; Kolsteren, P.; Van Camp, J.; De Cock, N.; Nimptsch, K.; et
 # A Python module for the ONE
 It has been tested in [Python](https://www.python.org/) v3.7.4 and [Neo4j](https://neo4j.com/) v3.5.6.
 
-A Python module was developed to process the content and STROBE-nut annotations of nutritional epidemiologic papers in XML format:
+A Python module was developed to process content and STROBE-nut annotations of nutritional epidemiologic papers in XML format:
 1) [Input.py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/strobenut/Input.py): extract and store metadata of papers through the “Springer Nature API Portal” or in local XML files respectively; 
 2) [Annotate.py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/strobenut/Annotate.py): annotate the reporting completeness of papers according to the STROBE-nut reporting guidelines;
 3) [Figure.py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/strobenut/Figure.py): visualize the statistics of reporting completeness of papers; visualize the reporting frequency of the STROBE-nut items.
