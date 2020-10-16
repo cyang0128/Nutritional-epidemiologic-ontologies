@@ -15,7 +15,7 @@ A Python module was developed to process content and STROBE-nut annotations of n
 2) [Annotate.py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/strobenut/Annotate.py): annotate the reporting completeness of papers according to the [STROBE-nut](https://www.strobe-nut.org/) reporting guidelines;
 3) [Figure.py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/strobenut/Figure.py): visualize the statistics of reporting completeness of papers; visualize the reporting frequency of the [STROBE-nut](https://www.strobe-nut.org/) items.
 
-<div align=center><img width="500" height="250" src="images/codeExample.png"/></div>
+<div align=center><img width="500" height="250" src="imports/images/codeExample.png"/></div>
 
 ### Code
 Please download the code under the folder ["strobenut"](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/tree/master/strobenut).
