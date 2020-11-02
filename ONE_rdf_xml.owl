@@ -1,0 +1,980 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/one"
+     xml:base="http://purl.obolibrary.org/obo/one"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:one="http://purl.obolibrary.org/obo/one_"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ONE">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ONS_0000070"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ONS_0000071"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ONS_0000072"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2020-06-10/iao.owl"/>
+        <obo:IAO_0000117>Chen Yang</obo:IAO_0000117>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+        <obo:IAO_0000115 xml:lang="en">An alternative lexical label for a resource.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">The range of skos:altLabel is the class of RDF plain literals.</rdfs:comment>
+        <rdfs:comment xml:lang="en">skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">alternative label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000067 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000067"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000059 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000059"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000315"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000317"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000318"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000319"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000326"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000620"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000644"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000115">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000067"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ONE_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
+        <obo:IAO_0000115 xml:lang="en">Dietary assessment is an evaluation of food and nutrient intake and dietary pattern of an individual or individuals in the household or population group over time. Dietary assessment methods are usually categorized according to the nature of the method. Prospective and retrospective methods refer to the time food consumption is recorded (FAO, 2018).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">dietary survey method</rdfs:label>
+        <skos:altLabel xml:lang="en">dietary assessment method</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">Retrospective methods are based on a recall of food intake that have already been consumed (FAO, 2018).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">retrospective method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">Prospective methods involve recording the diet when the foods are being consumed (FAO, 2018).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">prospective method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">DDS provides a simple score which represents a number of different foods and/or food groups consumed over a given reference period. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Dietary Diversity Score (DDS)</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">retrospective method for assessing dietary diversity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">During a 24-hour recall, respondents (i.e. adults, children and their parents or caretakers) are asked, by a nutritionist or dietitian who has been trained in interviewing techniques, to recall and report all foods and beverages consumed over the preceding 24 hours. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">24-hour dietary recall method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">Dietary history is a detailed assessment to describe usual food intake and its variation over a long period of time (six months to a year). (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">dietary history method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">FFQs assesses the frequency with which foods and/or food groups are eaten over a certain time period. The questionnaire includes a food list (usually close-ended) and a frequency category section, and can be self- or interviewer administered. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">FFQ</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Food Frequency Questionnaire method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">The duplicate meal method involves setting aside duplicate portions of all foods and beverages consumed throughout a specific time period. These retained duplicate portions are set aside, weighed, either by the respondent or fieldworker, and then sent to a laboratory for chemical analysis to determine nutrient content. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">duplicate diet method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">It is a prospective, open-ended survey method collecting data about the foods and beverages consumed over a previously specified period of time. Dietary records can be used to estimate current diet of individuals and population groups, as well as to identify groups at risk of inadequacy.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Ortega RM, Pérez-Rodrigo C, López-Sobaler AM. Dietary assessment methods: dietary records. Nutr Hosp. 2015 Feb 26;31 Suppl 3:38-45. doi: 10.3305/nh.2015.31.sup3.8749.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">dietary records method</rdfs:label>
+        <skos:altLabel xml:lang="en">food dairies</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">IYCDDS is defined as the “Proportion of children 6–23 months of age who receive foods from four or more food groups” (WHO/UNICEF, 2010).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label>retrospective method for assessing dietary diversity of infant and yong child</rdfs:label>
+        <skos:altLabel xml:lang="en">IYCDDS</skos:altLabel>
+        <skos:altLabel xml:lang="en">Infant and Young Child Dietary Diversity Score</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">MDD-W has been defined as a dichotomous indicator of whether or not women who are 15–49 years of age have consumed at least five out of ten defined food groups during the previous day and night. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label>retrospective method for assessing dietary diversity of women</rdfs:label>
+        <skos:altLabel xml:lang="en">MDD-W</skos:altLabel>
+        <skos:altLabel xml:lang="en">Minimum Dietary Diversity–Women</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000007"/>
+        <obo:IAO_0000115 xml:lang="en">They are modified versions of longer FFQs varying in length, frequency categories and number of foods listed. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">screener method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000007"/>
+        <obo:IAO_0000115 xml:lang="en">non-quantitative FFQs collect only frequency information.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">non-quantitative FFQ method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000007"/>
+        <obo:IAO_0000115 xml:lang="en">FFQs can include information about portion sizes and/or quantity of food intake. These types of questionnaires are known as semi-quantitative. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">semi-quantitative FFQ method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">This approach adopts the same methodological principles as the estimated food record method. However, in this method respondents are asked to weigh using weighing scales. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">weighed food records method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">When conducting an estimated food record, respondents are instructed to document all foods and beverages consumed during a predefined
+period (e.g. 1 to 7 days). (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">FAO. 2018. Dietary Assessment: A resource guide to method selection and application in low resource settings. Rome.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">estimated food records method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Quality of a dietary survey is specified as the quality of recall methods, the quality of questionnaires, representativeness of days, and the quality of food quantification methods. (Yang et al. 2017)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">quality of a dietary survey</rdfs:label>
+        <skos:altLabel xml:lang="en">quality of a dietary assessment</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001001"/>
+        <obo:IAO_0000115 xml:lang="en">The quality of recall methods depends on the administration type and the time of recall.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">quality of recall methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001001"/>
+        <obo:IAO_0000115 xml:lang="en">Questionnaire: a predetermined set of questions used to collect data—clinical data, social status, occupational group, etc. This term is often applied to a self-completed survey instrument, as contrasted with an interview schedule. (Porta. M. et al. 2014)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Porta, M. ed., 2014. A dictionary of epidemiology. Oxford university press.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">quality of a questionnaire</rdfs:label>
+        <skos:altLabel xml:lang="en">quality of a data collection instrument</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001001"/>
+        <obo:IAO_0000115 xml:lang="en">The representativeness of days can be assessed with 4 indicators: representativeness of seasons, representativeness of week/weekend days, number of days selected and type of days selected.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">representativeness of days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001001"/>
+        <obo:IAO_0000115 xml:lang="en">Food quantification methods help express food intake into units of weights or volume. The quality of food quantification methods determines the accuracy of a food quantification process.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">quality of food quantification methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001002"/>
+        <obo:IAO_0000115 xml:lang="en">Measurement of diet and food intake can be proxy administered, self-administered or interview administered.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">administration type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001002"/>
+        <obo:IAO_0000115 xml:lang="en">Dietary intake can be recorded during eating occasion, immediately after eating occasion, or later.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">the time of dietary record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
+        <obo:IAO_0000115 xml:lang="en">There are three pre-defined categories: self-developed questionnaire, standardized questionnaire or a questionnaire adopting other questionnaires.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label>origin of a questionnaire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
+        <obo:IAO_0000115 xml:lang="en">The content validity of a questionnaire is assessed in another comparable population in terms of both age and dietary habits.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label>content validity assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
+        <obo:IAO_0000115 xml:lang="en">It can be a comparison with subjective dietary assessment methods (e.g., FFQ, 24-h recall, or short term dietary record), or long-term weighted dietary record (over 7 d), or objective methods (e.g., biomarker of dietary intake).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">reference of a validation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
+        <obo:IAO_0000115 xml:lang="en">The validated elements can be properties of a questionnaire (e.g., interrater reliability, etc.), frequency options appropriate to identify between-person variations, and/or food items lead to underestimated target nutrients intake (for FFQ only).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">validated elements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
+        <obo:IAO_0000115 xml:lang="en">It can be concurrent validity only, precision only or both.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">validation type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001004"/>
+        <obo:IAO_0000115 xml:lang="en">The quality is high if all seasons (e.g. spring, summer, fall, winter) are taken into account.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">representativeness of seasons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001004"/>
+        <obo:IAO_0000115 xml:lang="en">only week days, only weekend days, or both.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">representativeness of week/weekend days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001004"/>
+        <obo:IAO_0000115 xml:lang="en">Number of days of a recall/measurement per individual.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">number of days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001004"/>
+        <obo:IAO_0000115 xml:lang="en">It can be a convenience selection, selection of consecutive days, selection of random days (over a week) or selection of nonconsecutive, nonrandom days.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Selection of recall/measurement days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
+        <obo:IAO_0000115 xml:lang="en">Standard portion sizes can be used with/without aids such as pictures, models, standard household measure, utensils, etc. Alternatively, the portion sizes can be assessed digitally (and then verified by trained staff).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">quantification of portion sizes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
+        <obo:IAO_0000115 xml:lang="en">Food intake is directly expressed into units of weights or volume (for weighed food record). Alternatively, food intake can be converted from estimated portion sizes into units of weights or volume.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">quantification of food intake data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
+        <obo:IAO_0000115 xml:lang="en">In a single country there may be a wide diversity of soil and climatic conditions, resulting in significant variance in food composition. Variations in food marketing and food preparation within different parts of a country—or between countries in the case of a multicountry database—may also produce notable variance. For these reasons, geographically specific data may be presented in the database as a supplement to nationwide and/or region-wide averages.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Greenfield H, Southgate DA. Food composition data: production, management and use. 2nd ed. Rome (Italy): FAO UN; 2003.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">geographically specific quantification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
+        <obo:IAO_0000115 xml:lang="en">A food quantification method is tailored to the characteristics of the assessed population.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">customized quantification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0001021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
+        <obo:IAO_0000115 xml:lang="en">To match consumed food to food composition data, food items can be matched to the food composition data of the same food item (with similar moisture content), or means of the data of no less than 3 food items, or the data of a different food if necessary.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Chen Yang, Mariona Pinart, Patrick Kolsteren, John Van Camp, Nathalie De Cock, Katharina Nimptsch, Tobias Pischon, Eamon Laird, Giuditta Perozzi, Raffaella Canali, Axelle Hoge, Marta Stelmach-Mardas, Lars Ove Dragsted, Stéphanie Maria Palombi, Irina Dobre, Jildau Bouwman, Peter Clarys, Fabio Minervini, Maria De Angelis, Marco Gobbetti, Jean Tafforeau, Oscar Coltell, Dolores Corella, Hendrik De Ruyck, Janette Walton, Laura Kehoe, Christophe Matthys, Bernard De Baets, Guy De Tré, Antoon Bronselaer, Angela Rivellese, Rosalba Giacco, Rosario Lombardo, Sofian De Clercq, Niels Hulstaert, Carl Lachat, Perspective: Essential Study Quality Descriptors for Data from Nutritional Epidemiologic Research, Advances in Nutrition, Volume 8, Issue 5, September 2017, Pages 639–651, https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">referred food composition data for quantification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000315"/>
+        <obo:IAO_0000115 xml:lang="en">State the dietary/nutritional assessment method(s) used in the title, abstract, or keywords (STROBE-nut-1).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Carl Lachat et al. (2016). Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): an extension of the STROBE Statement. PLOS MEDICINE. 13(6).</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">abstract of a published study based on dietary survey(s)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">Report the number of individuals excluded based on missing, incomplete or implausible dietary/nutritional data.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">participants result section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000317"/>
+        <obo:IAO_0000115 xml:lang="en">a few sections are included to describe particular characterisitics of research methods of a study based on dietary surveys.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">methods of a published study based on dietary survey(s)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000318"/>
+        <obo:IAO_0000115 xml:lang="en">a few sections are included to describe particular characterisitics of research results of a study based on dietary surveys.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">results of a published study based on dietary survey(s)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000319"/>
+        <obo:IAO_0000115 xml:lang="en">a few sections are included to describe particular characterisitics of research discussion of a study based on dietary surveys.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">discussion of a published study based on dietary survey(s)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000620"/>
+        <obo:IAO_0000115 xml:lang="en">Describe the procedure for consent and study approval from ethics committee(s).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">ethics of a published study based on dietary survey(s)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002005"/>
+        <obo:IAO_0000115 xml:lang="en">Describe the main limitations of the data sources and assessment methods used and implications for the interpretation of the findings.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">limitation section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000326"/>
+        <obo:IAO_0000115 xml:lang="en">Provide data collection tools and data as online material or explain how they can be accessed.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">supplementary material of a published study based on dietary survey(s)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002003"/>
+        <obo:IAO_0000115 xml:lang="en">Describe any characteristics of the study settings that might affect the dietary intake or nutritional status of the participants, if applicable.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">settings section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002003"/>
+        <obo:IAO_0000115 xml:lang="en">Report particular dietary, physiological or nutritional characteristics that were considered when selecting the target population.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">participants section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002003"/>
+        <obo:IAO_0000115 xml:lang="en">a) Clearly define foods, food groups, nutrients, or other food components.b) When using dietary patterns or indices, describe the methods to obtain them and their nutritional properties.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">variables section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002003"/>
+        <obo:IAO_0000115 xml:lang="en">The data measurements section includes 6 elements for the description of data measurements of a study based on dietary survey(s).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">data measurements section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002003"/>
+        <obo:IAO_0000115 xml:lang="en">Report how bias in dietary or nutritional assessment was addressed, e.g., misreporting, changes in habits as a result of being measured, or data imputation from other sources</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">bias section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002003"/>
+        <obo:IAO_0000115 xml:lang="en">Explain categorization of dietary/nutritional data (e.g., use of N-tiles and handling of nonconsumers) and the choice of reference category, if applicable.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">quantitative variables section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000644"/>
+        <obo:IAO_0000115 xml:lang="en">a) Describe any statistical method used to combine dietary or nutritional data, if applicable; b) Describe and justify the method for energy adjustments, intake modeling, and use of weighting factors, if applicable; c) Report any adjustments for measurement error, i.e,. from a validity or calibration study.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">statistical analysis section of a published study based on dietary survey(s)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002012"/>
+        <obo:IAO_0000115 xml:lang="en">Describe the dietary assessment method(s), e.g., portion size estimation, number of days and items recorded, how it was developed and administered, and how quality was assured. Report if and how supplement intake was assessed.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">dietary assessment method(s) section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002012"/>
+        <obo:IAO_0000115 xml:lang="en">Describe and justify food composition data used. Explain the procedure to match food composition with consumption data. Describe the use of conversion factors, if applicable.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">food composition data section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002012"/>
+        <obo:IAO_0000115 xml:lang="en">Describe the nutrient requirements, recommendations, or dietary guidelines and the evaluation approach used to compare intake with the dietary reference values, if applicable.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">dietary reference values section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002012"/>
+        <obo:IAO_0000115 xml:lang="en">When using nutritional biomarkers, additionally use the STROBE Extension for Molecular Epidemiology (STROBE-ME). Report the type of biomarkers used and their usefulness as dietary exposure markers.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">biomarkers section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002012"/>
+        <obo:IAO_0000115 xml:lang="en">Describe the assessment of nondietary data (e.g., nutritional status and influencing factors) and timing of the assessment of these variables in relation to dietary assessment.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">nondietary data section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002012"/>
+        <obo:IAO_0000115 xml:lang="en">Report on the validity of the dietary or nutritional assessment methods and any internal or external validation used in the study, if applicable.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">study validation section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">Give the distribution of participant characteristics across the exposure variables if applicable. Specify if food consumption of total population or consumers only were used to obtain results.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">descriptive data section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">Specify if nutrient intakes are reported with or without inclusion of dietary supplement intake, if applicable.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">main results section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">Report any sensitivity analysis (e.g., exclusion of misreporters or outliers) and data imputation, if applicable.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">other analyses section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONE_0002025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0002025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0002005"/>
+        <obo:IAO_0000115 xml:lang="en">Report the nutritional relevance of the findings, given the complexity of diet or nutrition as an exposure.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement. PLoS Med. 2016 Jun 7;13(6):e1002036. doi: 10.1371/journal.pmed.1002036.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">interpretation section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_0000070">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000067"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ONE_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_0000071">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000067"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ONE_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_0000072">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000067"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ONE_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
