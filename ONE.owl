@@ -15,7 +15,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ONE">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2020-06-10/iao.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl"/>
         <obo:IAO_0000117>Chen Yang</obo:IAO_0000117>
     </owl:Ontology>
     
@@ -77,6 +77,12 @@
     <!-- http://purl.obolibrary.org/obo/in_minimal_requirements_subset -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/in_minimal_requirements_subset"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     
 
 
@@ -326,9 +332,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
-        <obo:IAO_0000115 xml:lang="en">An investigation that is an evaluation of food and nutrient intake and dietary pattern of an individual or individuals in the household or population group over time.  (FAO, 2018).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An investigation of food and nutrient intake and dietary pattern of an individual or individuals.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">FAO</dc:contributor>
         <rdfs:label xml:lang="en">dietary survey method</rdfs:label>
         <skos:altLabel xml:lang="en">dietary assessment method</skos:altLabel>
     </owl:Class>
@@ -339,9 +346,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">Retrospective methods are based on a recall of food intake that have already been consumed (FAO, 2018).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of dietary survey method that is based on a recall of food or drink intake that have already been consumed.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">retrospective dietary survey method</rdfs:label>
     </owl:Class>
     
@@ -351,9 +359,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">A type of dietary survey method that involves recording the diet when the foods are being consumed (FAO, 2018).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of dietary survey method that involves recording the diet when the foods or drinks are being consumed.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">FAO</dc:contributor>
         <rdfs:label xml:lang="en">prospective dietary survey method</rdfs:label>
     </owl:Class>
     
@@ -363,10 +372,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000002"/>
-        <obo:IAO_0000115 xml:lang="en">A retrospective dietary survey method that provides a simple score which represents a number of different foods and/or food groups consumed over a given reference period. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A retrospective dietary survey method that provides a score that represents a number of different foods, drinks and/or food groups consumed over a given reference period.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Dietary Diversity Score (DDS)</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">retrospective method for assessing dietary diversity</rdfs:label>
     </owl:Class>
     
@@ -376,9 +386,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000002"/>
-        <obo:IAO_0000115 xml:lang="en">A retrospective dietary survey investigation that respondents (i.e. adults, children and their parents or caretakers) are asked, by a nutritionist or dietitian who has been trained in interviewing techniques, to recall and report all foods and beverages consumed over the preceding 24 hours. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of retrospective dietary survey method where respondents are asked, by a nutritionist or dietitian who has been trained in interviewing techniques, to recall and report all foods and beverages consumed over the preceding 24 hours.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">24-hour dietary recall method</rdfs:label>
     </owl:Class>
     
@@ -388,9 +399,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000002"/>
-        <obo:IAO_0000115 xml:lang="en">A retrospective dietary survey method that is a detailed assessment to describe usual food intake and its variation over a long period of time (six months to a year). (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of retrospective dietary survey method that is a detailed assessment to describe usual food intake and its variation over a long period of time.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">dietary history method</rdfs:label>
     </owl:Class>
     
@@ -400,10 +412,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000002"/>
-        <obo:IAO_0000115 xml:lang="en">A retrospective dietary survey method that assesses the frequency with which foods and/or food groups are eaten over a certain time period (The questionnaire includes a food list (usually close-ended) and a frequency category section, and can be self- or interviewer administered)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A retrospective dietary survey method that assesses the frequency with which foods and/or food groups are eaten over a certain time period. The questionnaire includes a food list (commonly close-ended), a frequency category section, and can be self- or interviewer administered.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">FFQ</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">Food Frequency Questionnaire method</rdfs:label>
     </owl:Class>
     
@@ -413,9 +426,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000003"/>
-        <obo:IAO_0000115 xml:lang="en">The prospective dietary surevey method that involves setting aside duplicate portions of all foods and beverages consumed throughout a specific time period. These retained duplicate portions are set aside, weighed, either by the respondent or fieldworker, and then sent to a laboratory for chemical analysis to determine nutrient content. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of prospective dietary survey method that involves setting aside duplicate portions of all foods and beverages consumed throughout a specific time period. These duplicate portions are set aside, weighed, either by the respondent or fieldworker, and then sent to a laboratory for chemical analysis to determine content.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">duplicate diet method</rdfs:label>
     </owl:Class>
     
@@ -425,11 +439,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000003"/>
-        <obo:IAO_0000115 xml:lang="en">A prospective, open-ended survey method collecting data about the foods and beverages consumed over a previously specified period of time. Dietary records can be used to estimate current diet of individuals and population groups, as well as to identify groups at risk of inadequacy.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of prospective dietary survey method collecting data about the foods and beverages consumed over a previously specified period of time.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3305/nh.2015.31.sup3.8749</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">López-Sobaler AM</dc:contributor>
-        <dc:contributor xml:lang="en">Ortega RM</dc:contributor>
-        <dc:contributor xml:lang="en">Pérez-Rodrigo C</dc:contributor>
         <rdfs:label xml:lang="en">dietary records method</rdfs:label>
         <skos:altLabel xml:lang="en">food dairies</skos:altLabel>
     </owl:Class>
@@ -440,9 +453,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000004"/>
-        <obo:IAO_0000115 xml:lang="en">A retrospective method for assessing dietary diversity with the &quot;Infant and Young Child Dietary Diversity Score&quot; (IYCDDS, defined as the Proportion of children 6–23 months of age who receive foods from four or more food groups (WHO/UNICEF, 2010))</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A retrospective method for assessing dietary diversity with the &quot;Infant and Young Child Dietary Diversity Score&quot; (IYCDDS, defined as the Proportion of children 6–23 months of age who receive foods from four or more predefined food groups.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label>retrospective method for assessing dietary diversity of infant and yong child</rdfs:label>
         <skos:altLabel xml:lang="en">IYCDDS</skos:altLabel>
         <skos:altLabel xml:lang="en">Infant and Young Child Dietary Diversity Score</skos:altLabel>
@@ -454,9 +468,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000004"/>
-        <obo:IAO_0000115 xml:lang="en">A retrospective method for assessing dietary diversity with the &quot;Minimum Dietary Diversity-Women&quot; (MDD-W, defined as a dichotomous indicator of whether or not women who are 15–49 years of age have consumed at least five out of ten defined food groups during the previous day and night)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A retrospective method for assessing dietary diversity in women. Minimum Dietary Diversity-Women is a dichotomous indicator of whether or not women of 15–49 years of age have consumed at least five out of ten predefined food groups during the previous 24 hours.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label>retrospective method for assessing dietary diversity of women</rdfs:label>
         <skos:altLabel xml:lang="en">MDD-W</skos:altLabel>
         <skos:altLabel xml:lang="en">Minimum Dietary Diversity–Women</skos:altLabel>
@@ -468,9 +483,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000007"/>
-        <obo:IAO_0000115 xml:lang="en">They are modified versions of longer FFQs varying in length, frequency categories and number of foods listed. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A retrospective dietary survey method that uses modified versions of longer Food Frequency Questionnaires varying in length, frequency categories and number of foods listed.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">screener method</rdfs:label>
     </owl:Class>
     
@@ -480,7 +496,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000007"/>
-        <obo:IAO_0000115 xml:lang="en">non-quantitative FFQs collect only frequency information.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of Food Frequency Questionnaire method that collects only frequency of food or drink intake.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <rdfs:label xml:lang="en">non-quantitative FFQ method</rdfs:label>
     </owl:Class>
     
@@ -490,9 +508,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000007"/>
-        <obo:IAO_0000115 xml:lang="en">FFQs can include information about portion sizes and/or quantity of food intake. These types of questionnaires are known as semi-quantitative. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of Food Frequency Questionnaire method that includes information about both the frequency and quantity of food or drink intake.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">semi-quantitative FFQ method</rdfs:label>
     </owl:Class>
     
@@ -502,9 +521,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000009"/>
-        <obo:IAO_0000115 xml:lang="en">This approach adopts the same methodological principles as the estimated food record method. However, in this method respondents are asked to weigh using weighing scales. (FAO, 2018)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of dietary records method that adopts the same methodological principles as the estimated food record method. However, in this method respondents are asked to weigh foods or drinks using weighing scales.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">weighed food records method</rdfs:label>
     </owl:Class>
     
@@ -514,10 +534,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0000009"/>
-        <obo:IAO_0000115 xml:lang="en">When conducting the dietary records method, respondents are instructed to document all foods and beverages consumed during a predefined
-period (e.g. 1 to 7 days).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A type of dietary records method that instructions respondents to document all foods and beverages consumed during a predefined period.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/3/I9940EN/i9940en.pdf</obo:IAO_0000119>
-        <dc:contributor>FAO</dc:contributor>
         <rdfs:label xml:lang="en">estimated food records method</rdfs:label>
     </owl:Class>
     
@@ -527,9 +547,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that specifies the quality of a dietary survey</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that specifies the quality of a dietary survey.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">quality indicator of a dietary survey</rdfs:label>
         <skos:altLabel xml:lang="en">quality of a dietary assessment</skos:altLabel>
     </owl:Class>
@@ -540,9 +561,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001001"/>
-        <obo:IAO_0000115 xml:lang="en">The quality of recall methods depends on the administration type and the time of recall.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">: An indicator that specifies the quality of a diet recall method.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">quality indicator of a diet recall method</rdfs:label>
     </owl:Class>
     
@@ -552,9 +574,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001001"/>
-        <obo:IAO_0000115 xml:lang="en">A quality indicator of a dietary survey questionnaire that includes a predetermined set of questions used to collect data—clinical data, social status, occupational group, etc.  A dietary survey questionnaire is often applied to a self-completed survey instrument, as contrasted with an interview schedule. (Porta. M. et al. 2014)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies the quality of dietary survey questionnaires that includes a predetermined set of questions used to collect diet intake information.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://www.oxfordreference.com/view/10.1093/acref/9780195314496.001.0001/acref-9780195314496</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Miquel Porta</dc:contributor>
         <rdfs:label xml:lang="en">quality indicator of a diet survey questionnaire</rdfs:label>
         <skos:altLabel xml:lang="en">quality of a data collection instrument</skos:altLabel>
     </owl:Class>
@@ -565,9 +588,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001001"/>
-        <obo:IAO_0000115 xml:lang="en">The representativeness of days can be assessed with 4 indicators: representativeness of seasons, representativeness of week/weekend days, number of days selected and type of days selected.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies the representativeness of days of a dietary survey.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">representativeness of days as a quality indicator of a dietary survey</rdfs:label>
     </owl:Class>
     
@@ -577,9 +601,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001001"/>
-        <obo:IAO_0000115 xml:lang="en">The quality of food quantification methods determines the accuracy of a food quantification process. Food quantification methods help express food intake into units of weights or volume.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies the accuracy of a food quantification process (i.e. a process that helps express food intake into units of weights or volume.).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">quality indicator of a food quantification method</rdfs:label>
     </owl:Class>
     
@@ -589,9 +614,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001002"/>
-        <obo:IAO_0000115 xml:lang="en">A quality indicator of a recall method that illustrates the measurement of diet and food intake was proxy administered, self-administered or interview administered.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies the administration type of a diet recall method. A diet recall method can be proxy administered, self-administered or interview administered.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">administration type of a diet recall method</rdfs:label>
     </owl:Class>
     
@@ -601,9 +627,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001002"/>
-        <obo:IAO_0000115 xml:lang="en">A quality indicator of a recall method that indicates how dietary intake was recorded (e.g. during eating occasion, immediately after eating occasion, or later)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies when the dietary intake was recorded. (e.g. during eating occasion, immediately after eating occasion, or later).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">time of dietary record</rdfs:label>
     </owl:Class>
     
@@ -613,7 +640,9 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
-        <obo:IAO_0000115 xml:lang="en">A questionnaire quality indicator that is represented by the origin of a questionnaire (e.g. self-developed questionnaire, standardized questionnaire, a questionnaire adopting other questionnaires, etc.)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies how the questionnaire was developed (e.g. de novo self-developed questionnaire, standardized questionnaire, questionnaire adapted from another questionnaires, etc.).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
         <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label>origin of a diet survey questionnaire</rdfs:label>
@@ -625,50 +654,12 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
-        <obo:IAO_0000115 xml:lang="en">A questionnaire quality indicator that is assessed in another comparable population in terms of both age and dietary habits.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies the content validity of a diet survey questionnaire in another comparable population in terms of both age and dietary habits. The reference, the type of the validation, and validation estimates are important pieces of information.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label>content validity of a diet survey questionnaire</rdfs:label>
         <skos:altLabel>content validity</skos:altLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ONE_0001010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
-        <obo:IAO_0000115 xml:lang="en">A type of questionnaire quality indicator that can be generated by a comparison with subjective dietary assessment methods (e.g., FFQ, 24-h recall, or short term dietary record), or long-term weighted dietary record (over 7 d), or objective methods (e.g., biomarker of dietary intake).</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
-        <rdfs:label xml:lang="en">reference of a validation of a diet survey questionnaire</rdfs:label>
-        <skos:altLabel>reference of a validation</skos:altLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ONE_0001011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
-        <obo:IAO_0000115 xml:lang="en">A questionnaire quality indicator that can be properties of a questionnaire (e.g., interrater reliability, etc.), frequency options appropriate to identify between-person variations, and/or food items lead to underestimated target nutrients intake (for FFQ only).</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
-        <rdfs:label xml:lang="en">validated element of a diet survey questionnaire</rdfs:label>
-        <skos:altLabel>validated element</skos:altLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ONE_0001012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001003"/>
-        <obo:IAO_0000115 xml:lang="en">A questionnaire quality indicator that can be indicated as concurrent validity only, precision only or both.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
-        <rdfs:label xml:lang="en">validation type of a diet survey questionnaire</rdfs:label>
-        <skos:altLabel>validation type</skos:altLabel>
     </owl:Class>
     
 
@@ -677,9 +668,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001004"/>
-        <obo:IAO_0000115 xml:lang="en">Representativeness of days would be good if all seasons (e.g. spring, summer, fall, winter) were taken into account.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies if data collection was seasonality representative.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">representativeness of seasons of a dietary survey</rdfs:label>
         <skos:altLabel>representativeness of seasons</skos:altLabel>
     </owl:Class>
@@ -690,9 +682,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001004"/>
-        <obo:IAO_0000115 xml:lang="en">Representativeness of days that are indicated by the representativeness of week/weekend days (e.g. only week days, only weekend days, or both)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies the representativeness of week/weekend days when conducting a dietary survey.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">representativeness of week/weekend days of a dietary survey</rdfs:label>
         <skos:altLabel>representativeness of week/weekend days</skos:altLabel>
     </owl:Class>
@@ -703,9 +696,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001004"/>
-        <obo:IAO_0000115 xml:lang="en">Representativeness of days that is represented by the number of days of a recall/measurement per individual.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies the number of days of a dietary recall/measurement per individual.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">number of days of a dietary survey</rdfs:label>
         <skos:altLabel>number of days</skos:altLabel>
     </owl:Class>
@@ -716,9 +710,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001004"/>
-        <obo:IAO_0000115 xml:lang="en">Representativeness of days that depends on how the days were selected (e.g. convenience selection, selection of consecutive days, selection of random days (over a week) or selection of nonconsecutive, nonrandom days)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies how the recall/measurement days of a dietary survey were selected.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">selection of recall/measurement days of a dietary survey</rdfs:label>
         <skos:altLabel>selection of recall/measurement days</skos:altLabel>
     </owl:Class>
@@ -729,9 +724,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
-        <obo:IAO_0000115 xml:lang="en">A quality indicator of a food quantification method that illustrate how to use standard portion sizes with/without aids such as pictures, models, standard household measure, utensils, etc. (Alternatively, the portion sizes can be assessed digitally and then verified by trained staff).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies how the quantity of the portion sizes is estimated.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">quantification of a food portion size</rdfs:label>
     </owl:Class>
     
@@ -741,9 +737,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
-        <obo:IAO_0000115 xml:lang="en">A quality indicator of a food quantification method that illustrates that a) food intake is directly expressed into units of weights or volume (for weighed food record), or b) converted from estimated portion sizes into units of weights or volume.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that specifies how food intake data are expressed into units of weights or volume.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">quantification of food intake data</rdfs:label>
     </owl:Class>
     
@@ -753,10 +750,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
-        <obo:IAO_0000115 xml:lang="en">In a single country there may be a wide diversity of soil and climatic conditions, resulting in significant variance in food composition. Variations in food marketing and food preparation within different parts of a country—or between countries in the case of a multicountry database—may also produce notable variance. For these reasons, geographically specific data may be presented in the database as a supplement to nationwide and/or region-wide averages.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator for food quantification method that indicates whether a food quantification method is geography matched to the area where the food is estimated.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.fao.org/fileadmin/templates/food_composition/images/FCD.pdf</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Greenfield H</dc:contributor>
-        <dc:contributor xml:lang="en">Southgate DA</dc:contributor>
         <rdfs:label xml:lang="en">geographically specific food quantification</rdfs:label>
     </owl:Class>
     
@@ -766,9 +763,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
-        <obo:IAO_0000115 xml:lang="en">A quality indicator of a food quantification method that indicates whether a food quantification method is tailored to the characteristics of the assessed population.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator for food quantification method that indicates whether a food quantification method is tailored to the characteristics of the assessed population.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">customized food quantification</rdfs:label>
     </owl:Class>
     
@@ -778,9 +776,10 @@ period (e.g. 1 to 7 days).</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONE_0001021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONE_0001005"/>
-        <obo:IAO_0000115 xml:lang="en">A quality indicator of a food quantification method that indicates how to match consumed food to food composition data. (e.g. food items can be matched to the food composition data of the same food item (with similar moisture content), or means of the data of no less than 3 food items, or the data of a different food if necessary)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An indicator that indicates how the measured food intake data are matched to food composition data.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Carl Lachat</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chen Yang</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://doi.org/10.3945/an.117.015651</obo:IAO_0000119>
-        <dc:contributor xml:lang="en">Chen Yang</dc:contributor>
         <rdfs:label xml:lang="en">referred food composition data for quantification</rdfs:label>
     </owl:Class>
     
