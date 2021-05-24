@@ -23,7 +23,7 @@ It has been tested in [Python](https://www.python.org/) v3.8.5 and [Neo4j](https
 <div align=center><img width="800" height="420" src="imports/images/fbdg4.gif"/></div>
 <p align="center">Figure 4. Query the developed neo4j database</p>
 <div align=center><img width="800" height="450" src="imports/images/fbdg5.jpeg"/></div>
-<p align="center">Figure 5. Identify the key metadata of the Portugal guidelines</p>
+<p align="center">Figure 5. Identify the key metadata of the Portugal guidelines (an example)</p>
 
 # A Python module for nutrition article annotation
 It has been tested in [Python](https://www.python.org/) v3.7.4 and [Neo4j](https://neo4j.com/) v3.5.6.
