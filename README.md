@@ -1,8 +1,7 @@
 This repository includes:
 1) one ontology for nutritional epidemiologic research. It was developed according to three well-developed standards agreed by the nutrition science community.
 2) Python code to manage a graph database of nutritional epidemiologic papers.
-3) Python code to manage a graph database of [FAO food-based dietary guidelines](http://www.fao.org/nutrition/education/food-dietary-guidelines/en/).
-
+3) Python code to manage a graph database of [FAO food-based dietary guidelines](http://www.fao.org/nutrition/education/food-dietary-guidelines/en/). 
 # Ontology for Nutritional Epidemiology (ONE) 
 ### [Homepage](http://www.strobe-nut.org/content/strobe-nut-ontology) & [BioPortal](https://bioportal.bioontology.org/ontologies/ONE)
 
