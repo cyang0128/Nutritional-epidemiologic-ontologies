@@ -1,13 +1,21 @@
 This repository includes:
 1) one ontology for nutritional epidemiologic research. It was developed according to three well-developed standards agreed by the nutrition science community.
 2) Python code to manage a graph database of nutritional epidemiologic papers.
+3) Python code to manage a graph database of [FAO food-based dietary guidelines](http://www.fao.org/nutrition/education/food-dietary-guidelines/en/).
 
 # Ontology for Nutritional Epidemiology (ONE) 
 ### [Homepage](http://www.strobe-nut.org/content/strobe-nut-ontology) & [BioPortal](https://bioportal.bioontology.org/ontologies/ONE)
 
 Nutritional epidemiology is a specific research area. The generic ontologies for food science, nutrition science or medical science failed to cover the specific characteristics of nutritional epidemiologic studies. As a result, we developed the ontology for nutritional epidemiology (ONE) in order to describe nutritional epidemiologic studies accurately.
 
-# A Python module for the ONE
+# A Python module for food-based dietary guidelines annotation
+It has been tested in [Python](https://www.python.org/) v3.8.5 and [Neo4j](https://neo4j.com/) v3.5.6.
+
+1) [FAO guidelines annotation.py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/imports/dietary%20guidelines%20annotation%20(python)/FAO%20guidelines%20annotation.py): extract and store metadata of food-based dietary guidelines through [the FAO website](http://www.fao.org/nutrition/education/food-dietary-guidelines/en/); 
+2) [FAO guidelines-get urls and countries.py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/imports/dietary%20guidelines%20annotation%20(python)/FAO%20guidelines-get%20urls%20and%20countries.py): extract the list of urls and country/area names of the FAO guidelines;
+3) [FAO guidelines annotation (an example).py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/imports/dietary%20guidelines%20annotation%20(python)/FAO%20guidelines%20annotation%20(an%20example).py): an example to run the code.
+
+# A Python module for nutrition article annotation
 It has been tested in [Python](https://www.python.org/) v3.7.4 and [Neo4j](https://neo4j.com/) v3.5.6.
 
 A Python module was developed to process content and STROBE-nut annotations of nutritional epidemiologic papers in XML format:
