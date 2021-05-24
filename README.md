@@ -15,6 +15,8 @@ It has been tested in [Python](https://www.python.org/) v3.8.5 and [Neo4j](https
 2) [FAO guidelines-get urls and countries.py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/imports/dietary%20guidelines%20annotation%20(python)/FAO%20guidelines-get%20urls%20and%20countries.py): extract the list of urls and country/area names of the FAO guidelines;
 3) [FAO guidelines annotation (an example).py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/imports/dietary%20guidelines%20annotation%20(python)/FAO%20guidelines%20annotation%20(an%20example).py): an example to run the code.
 
+<div align=center><img width="800" height="500" src="imports/images/fbdg1.gif"/></div>
+
 # A Python module for nutrition article annotation
 It has been tested in [Python](https://www.python.org/) v3.7.4 and [Neo4j](https://neo4j.com/) v3.5.6.
 
