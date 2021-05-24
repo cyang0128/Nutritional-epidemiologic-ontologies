@@ -18,7 +18,7 @@ A Python module was developed to process content and STROBE-nut annotations of n
 <div align=center><img width="500" height="250" src="imports/images/codeExample.png"/></div>
 
 ### Code
-Please download the code under the folder ["strobenut"](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/tree/master/strobenut).
+Please download the code under the folder ["strobenut"](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/imports).
 
 ### Publications (ontology and graph database)
 Yang, C.; Hawwash, D.; De Baets, B.; Bouwman, J.; Lachat, C. (2020) Perspective: Towards automated tracking of content and evidence appraisal of nutrition research. Advances in Nutrition. https://doi.org/10.1093/advances/nmaa057
