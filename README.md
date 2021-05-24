@@ -16,7 +16,7 @@ It has been tested in [Python](https://www.python.org/) v3.8.5 and [Neo4j](https
 
 <div align=center><img width="800" height="500" src="imports/images/fbdg1.gif"/></div>
 <div align=center><img width="800" height="300" src="imports/images/fbdg2.gif"/></div>
-<div align=center><img width="800" height="2500" src="imports/images/fbdg3.gif"/></div>
+<div align=center><img width="800" height="250" src="imports/images/fbdg3.gif"/></div>
 
 # A Python module for nutrition article annotation
 It has been tested in [Python](https://www.python.org/) v3.7.4 and [Neo4j](https://neo4j.com/) v3.5.6.
