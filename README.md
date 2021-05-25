@@ -15,21 +15,23 @@ It has been tested in [Python](https://www.python.org/) v3.8.5 and [Neo4j](https
 3) [FAO guidelines annotation (an example).py](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies/blob/master/imports/dietary%20guidelines%20annotation%20(python)/FAO%20guidelines%20annotation%20(an%20example).py): an example to run the code.
 
 <div align=center><img width="800" height="632" src="imports/images/fbdg8.gif"/></div>
-<p align="center">Figure 1. the FAO homepage of food-based dietary guidelines</p>
+<p align="center">Figure 1. The FAO homepage of food-based dietary guidelines</p>
 <div align=center><img width="800" height="500" src="imports/images/fbdg1.gif"/></div>
 <p align="center">Figure 2. Extract the list of countries/areas from the FAO website</p>
-<div align=center><img width="800" height="300" src="imports/images/fbdg2.gif"/></div>
+<div align=center><img width="800" height="632" src="imports/images/fbdg9.gif"/></div>
 <p align="center">Figure 3. Extract the urls of food-based dietary guidelines from the FAO website</p>
+<div align=center><img width="800" height="300" src="imports/images/fbdg2.gif"/></div>
+<p align="center">Figure 4. The urls of food-based dietary guidelines from the FAO website</p>
 <div align=center><img width="800" height="250" src="imports/images/fbdg3.gif"/></div>
-<p align="center">Figure 4. Run the web crawler to process all the urls</p>
+<p align="center">Figure 5. Run the web crawler to process all the urls</p>
 <div align=center><img width="800" height="420" src="imports/images/fbdg4.gif"/></div>
-<p align="center">Figure 5. Query the developed neo4j database</p>
+<p align="center">Figure 6. Query the developed neo4j database</p>
 <div align=center><img width="800" height="450" src="imports/images/fbdg5.jpeg"/></div>
-<p align="center">Figure 6. Identify the key metadata of the Portugal guidelines (an example)</p>
+<p align="center">Figure 7. Identify the key metadata of the Portugal guidelines (an example)</p>
 <div align=center><img width="800" height="520" src="imports/images/fbdg6.png"/></div>
-<p align="center">Figure 7. Identify corresponding ontology terms (Food Ontology)</p>
+<p align="center">Figure 8. Identify corresponding ontology terms (Food Ontology)</p>
 <div align=center><img width="800" height="520" src="imports/images/fbdg7.gif"/></div>
-<p align="center">Figure 8. A drafted dashboard</p>
+<p align="center">Figure 9. A drafted dashboard</p>
 
 # A Python module for nutrition article annotation
 It has been tested in [Python](https://www.python.org/) v3.7.4 and [Neo4j](https://neo4j.com/) v3.5.6.
