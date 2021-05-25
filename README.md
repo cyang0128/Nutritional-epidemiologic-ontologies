@@ -24,12 +24,12 @@ It has been tested in [Python](https://www.python.org/) v3.8.5 and [Neo4j](https
 <p align="center">Figure 4. The urls of food-based dietary guidelines from the FAO website</p>
 <div align=center><img width="800" height="250" src="imports/images/fbdg3.gif"/></div>
 <p align="center">Figure 5. Run the web crawler to process all the urls</p>
-<div align=center><img width="800" height="420" src="imports/images/fbdg4.gif"/></div>
-<p align="center">Figure 6. Query the developed neo4j database: area</p>
-<div align=center><img width="800" height="417" src="imports/images/fbdg11.gif"/></div>
-<p align="center">Figure 7. Query the developed neo4j database: food item</p>
 <div align=center><img width="800" height="450" src="imports/images/fbdg5.jpeg"/></div>
-<p align="center">Figure 8. Identify the key metadata of the Portugal guidelines (an example)</p>
+<p align="center">Figure 6. Identify the key metadata of the Portugal guidelines (an example)</p>
+<div align=center><img width="800" height="420" src="imports/images/fbdg4.gif"/></div>
+<p align="center">Figure 7. Query the developed neo4j database: area</p>
+<div align=center><img width="800" height="417" src="imports/images/fbdg11.gif"/></div>
+<p align="center">Figure 8. Query the developed neo4j database: food item</p>
 <div align=center><img width="800" height="520" src="imports/images/fbdg6.png"/></div>
 <p align="center">Figure 9. Identify corresponding ontology terms (Food Ontology)</p>
 <div align=center><img width="800" height="417" src="imports/images/fbdg10.gif"/></div>
