@@ -29,9 +29,9 @@ It has been tested in [Python](https://www.python.org/) v3.8.5 and [Neo4j](https
 <div align=center><img width="800" height="450" src="imports/images/fbdg5.jpeg"/></div>
 <p align="center">Figure 7. Identify the key metadata of the Portugal guidelines (an example)</p>
 <div align=center><img width="800" height="520" src="imports/images/fbdg6.png"/></div>
-<p align="center">Figure 8. Identifier/ontology term (Food Ontology)</p>
+<p align="center">Figure 8. Identify corresponding ontology terms (Food Ontology)</p>
 <div align=center><img width="800" height="417" src="imports/images/fbdg10.gif"/></div>
-<p align="center">Figure 9. Identify corresponding ontology terms (Food Ontology)</p>
+<p align="center">Figure 9. Identifier/ontology term</p>
 <div align=center><img width="800" height="520" src="imports/images/fbdg7.gif"/></div>
 <p align="center">Figure 10. A drafted dashboard</p>
 
